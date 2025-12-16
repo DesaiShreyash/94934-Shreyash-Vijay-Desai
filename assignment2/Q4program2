@@ -1,0 +1,14 @@
+ #include<stdio.h>
+int main()
+{
+    int reg =0x05;
+    int reg1=0x0f;
+    int res;
+    res=reg^reg1;
+    if(res==0xAA);
+    {
+    printf("res of left shift is %8b",res);
+    
+    }
+    
+}
